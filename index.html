@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="p-image.png" type="image/x-icon">
+</head>
+<body>
+    <header> <h1><span>Physics</span> Calculator</h1> </header>
+
+    <section>
+        <div class="speedCal">
+            <h3 class="cal-tittle"><span>Speed</span> Calculater &nbsp;(M/S)</h3>
+            <input  id="disInput1" placeholder="ENTER DISTANCE"><br>
+            <input  id="timeInput1" placeholder="ENTER TIME"><br> 
+            <button  class="calButton" onclick="speedCalculater()">Calculate</button>
+            <h2  id="speedDisplay" > </h3>
+        </div>
+
+
+
+        <div class="speedCal">
+            <h3 class="cal-tittle"><span>Acceleration</span> Calculater(M/S<sup>2</sup>)</h3>
+            <input  id="disInput2" placeholder="ENTER VELOCITY"><br>
+            <input  id="timeInput2" placeholder="ENTER TIME"><br> 
+            <button  class="calButton" onclick="accCalculater()">Calculate</button>
+            <h2  id="accDisplay" > </h3>
+        </div>
+
+
+        <div class="speedCal">
+            <h3 class="cal-tittle"><span>K:E</span> Calculater (J)</h3>
+            <input  id="massInput3" placeholder="ENTER MASS"><br>
+            <input  id="disInput3" placeholder="ENTER VELOCITY"><br> 
+            <button  class="calButton" onclick="KeCalculater()">Calculate</button>
+            <h2  id="KeDisplay" > </h3>
+        </div>
+    
+
+
+
+
+        <div class="speedCal">
+            <h3 class="cal-tittle"><span>P:E</span> Calculater (J)</h3>
+            <input  id="massInput4" placeholder="ENTER MASS"><br>
+            <input  id="heightInput" placeholder="ENTER HEIGHT"><br> 
+            <button  class="calButton" onclick="PeCalculater()">Calculate</button>
+            <h2  id="PeDisplay" > </h3>
+        </div>
+
+
+        <div class="speedCal">
+            <h3 class="cal-tittle"><span>Power</span> Calculater (W)</h3>
+            <input  id="energyInput" placeholder="ENTER ENERGY"><br>
+            <input  id="powerTime" placeholder="ENTER TIME"><br> 
+            <button  class="calButton" onclick="PowerCalculater()">Calculate</button>
+            <h2  id="PowerDisplay" > </h3>
+        </div>
+    
+    
+    </section>
+
+
+
+    <footer class="footer">
+        <h5 class="desinedBy">Designed by <span>Leul Solomon</span></h5>
+        <h5 class="copyRight">© 2025 All rights reserved</h5>
+    </footer>
+
+
+
+
+    <script  src="script.js"></script>
+</body>
+</html>

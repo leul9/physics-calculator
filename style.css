@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    background-color: hsla(0, 30%, 69%, 0.925);
+    height: 40px;
+    padding: 20px;
+    
+}
+header h1{
+    text-align: center;
+    color: rgba(34, 11, 11, 0.801);
+    text-shadow: 0 0 5px rgba(34, 11, 11, 0.801);
+} 
+span{
+    color: orangered;
+}
+.speedCal{
+   width: 270px;
+   min-height: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 8px orangered ;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}    
+.speedCal input{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 8px;
+}
+.speedCal .calButton{
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    background-color: hsla(253, 67%, 24%, 0.61);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.calButton:hover{
+    background-color: hsla(253, 67%, 35%, 0.61);
+}
+.speedCal h2{
+    color: orangered;
+}
+.footer{
+    background-color: hsl(230, 46%, 17%);
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.footer h5{
+    color: white;
+    
+}
